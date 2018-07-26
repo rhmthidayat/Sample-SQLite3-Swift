@@ -1,0 +1,6 @@
+framework module Pods_Sample_SQLite_SwiftUITests {
+  umbrella header "Pods-Sample SQLite SwiftUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

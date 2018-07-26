@@ -1,0 +1,1012 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0095524B1808456A306D660272A41451 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		03168990C829D62C1B292C65EE4B3F30 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643474EE223342D015C7304572957051 /* Operators.swift */; };
+		048735D7440E2C8862EDB3392735B5E7 /* FTS5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F7F29D58C96F56A9CAE780EA70E2F6 /* FTS5.swift */; };
+		0A779FFEFE53D95A8220015CC327B911 /* SQLite.swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BA29985C5428857803D551A6AB2AD5F /* SQLite.swift-dummy.m */; };
+		29DE4D308CD243001CAE38E0BA3BEB4A /* Pods-Sample SQLite SwiftUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5896C551CA80F89BCBF786365D2EF45B /* Pods-Sample SQLite SwiftUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33D411BF6A20D07C78C2F6260DEC42F5 /* SQLite.swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DEC75AD5E005D49277C5B13895ACE94 /* SQLite.swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BD6D1B4DB1E0628A07A508169EA982E /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62F23765AB680ADE516757BF8C0A326B /* Errors.swift */; };
+		5491AE5382B5B8F3E023FFDC73A48157 /* Collation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 511972C964CB8473FFD63B4203BB2380 /* Collation.swift */; };
+		5591BB3F9FBBF19BF3076A2349EA1A82 /* FTS4.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21897015496193FC048FCEBFC403EA6 /* FTS4.swift */; };
+		583FC4343E49C6E97FE576F5C48A4369 /* Pods-Sample SQLite SwiftUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 132668EE7BD29BE2FEA447D7CBE9FFBD /* Pods-Sample SQLite SwiftUITests-dummy.m */; };
+		5F68BB0387A6B3BF4A578053397F091E /* Statement.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC53825AAE5A981376EDDBDB1AD8F53 /* Statement.swift */; };
+		61AF2415ED86FF314AAD4CACCF202BCA /* SQLite-Bridging.m in Sources */ = {isa = PBXBuildFile; fileRef = 690363762DF4BDFC05BD0F750AA78019 /* SQLite-Bridging.m */; };
+		621DC861DBC3CB74DE2337AFA916B8F5 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B867EE6F6CF742F7C87E5F45781F67B /* Connection.swift */; };
+		621FDD4895E7AC2BFAB139761BA2F95B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6429D01EBEDD5EE53FF7EB9521886792 /* SQLite.h in Headers */ = {isa = PBXBuildFile; fileRef = F0644D6055980F79F0A8424EFE2843E1 /* SQLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68CC0ECDA8C0E51607771A68BAA94FFC /* Blob.swift in Sources */ = {isa = PBXBuildFile; fileRef = C398E3CF412510CAC0234587FA47D3FE /* Blob.swift */; };
+		6C975F19FC80DD4EBCD6243CB5AECBD2 /* Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA15DC94A1FCDDF0AA96AC10BE412684 /* Schema.swift */; };
+		6E2DA06353B2940EB56D88243D8B1196 /* Pods-Sample SQLite Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B7C92CDC8800C119D72EA0F9EBAC6D9 /* Pods-Sample SQLite Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		780B4344631965D57E203E7B761EEB08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8AC9E29C09707E693CF404154173CF88 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296640A7777E9977DE4B1B9EF6843F18 /* Query.swift */; };
+		8AD16FB632ABFCA92DB00DFB6B30485C /* Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4EEDDC7A574480EB0AAADF3C37F9D4 /* Foundation.swift */; };
+		8F7F71C6A162D15ED093BB3FFF82C52D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9961B037770E6F65379F9AC6444FB2B4 /* CoreFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3875BB2B4B4E5F8B7E138DD67793CD04 /* CoreFunctions.swift */; };
+		9ACE44B98F2DEF02B9D417A0C12126D9 /* fts3_tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 699BA3382EF9958F1909DB8C125630C1 /* fts3_tokenizer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		9AE9CDF3A5548016BEA1581A75B83754 /* Pods-Sample SQLite SwiftTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF246A8D0EA60A605294DD57319529F9 /* Pods-Sample SQLite SwiftTests-dummy.m */; };
+		B926AC2EBCE6A8C296326A26F0427FA7 /* Pods-Sample SQLite SwiftTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60042E4A616A47BCFFB802836DE28076 /* Pods-Sample SQLite SwiftTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B97244586C557CAE037C77B18EFEB660 /* AggregateFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05914528C042257374DC578B405E0AE7 /* AggregateFunctions.swift */; };
+		BEB5476D8AF2FF3CFFA2FBAE885F3008 /* DateAndTimeFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCE7D07BE8088B948C613DB52A79C88 /* DateAndTimeFunctions.swift */; };
+		C0C81AFF374BE2FEEEABE328FBA62B81 /* CustomFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 401AC22F9DEDB15D73A802C2FCA686A8 /* CustomFunctions.swift */; };
+		C4499A56BF6F2B083F51D22E73FED217 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8906310A3615C20A63337A29946D1A7 /* Expression.swift */; };
+		C52E398609B2CBFF8AF53DB95586A22F /* SQLite-Bridging.h in Headers */ = {isa = PBXBuildFile; fileRef = 42E4F48BB2EAD2714192E87C5E117DE3 /* SQLite-Bridging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDB7B7E46D92B8C9E4E42FD0E806B27B /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = A212B99BB5D936F271049B436CD6A31C /* Value.swift */; };
+		D4195EE9F6C28C5B405F794E5F2EBC01 /* RTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49F885F20234573641D4D302F4A56D6 /* RTree.swift */; };
+		E4CBCAA4E1BCBC705E9A7F78B401DAA3 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34458A4504501396EA2ABF049268549 /* Helpers.swift */; };
+		EDD0E839749E29AD15DB5FF5E699DCBF /* Pods-Sample SQLite Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC036A81D362C7F6A7319758B3EE8835 /* Pods-Sample SQLite Swift-dummy.m */; };
+		EF97B7BBEF8A758C9CA6FA79B0D4267A /* Coding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A60E6AD277DE310DF764FA27746EEA7 /* Coding.swift */; };
+		F29F51931A3C4310225F9E25963C17B3 /* Setter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDBA8FC57684890F34746A8552D09A4E /* Setter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE7245495C4F5C1BC488F9A03935EC16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 616B8325A764658B922DD212205C1EAC;
+			remoteInfo = "Pods-Sample SQLite Swift";
+		};
+		CE0A1B31A6241DEBC4B243E6FF69F48D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2ACFEDFF2304C889F794E607F1F383D8;
+			remoteInfo = SQLite.swift;
+		};
+		EEE660C7C96399BCE09DF3A522DDCF3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 616B8325A764658B922DD212205C1EAC;
+			remoteInfo = "Pods-Sample SQLite Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0489FB691630657BE7CD9BB3E79B3A69 /* Pods_Sample_SQLite_SwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Sample_SQLite_SwiftTests.framework; path = "Pods-Sample SQLite SwiftTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05914528C042257374DC578B405E0AE7 /* AggregateFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AggregateFunctions.swift; path = Sources/SQLite/Typed/AggregateFunctions.swift; sourceTree = "<group>"; };
+		0699A0D3B6F217B3EF63A8CA8C4E0FCF /* Pods-Sample SQLite SwiftTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sample SQLite SwiftTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0AD89E971E8E81405517287089B04CDE /* Pods_Sample_SQLite_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Sample_SQLite_Swift.framework; path = "Pods-Sample SQLite Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CA91A0EFAF7E80F7FBA92289C582E9F /* Pods-Sample SQLite SwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sample SQLite SwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		12E8FCE1A85429B6597A0AD0C2FBAB5B /* Pods-Sample SQLite Swift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sample SQLite Swift-resources.sh"; sourceTree = "<group>"; };
+		132668EE7BD29BE2FEA447D7CBE9FFBD /* Pods-Sample SQLite SwiftUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sample SQLite SwiftUITests-dummy.m"; sourceTree = "<group>"; };
+		16FEBF114291D072BBADE43ADFD93241 /* Pods-Sample SQLite SwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sample SQLite SwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		19F7F29D58C96F56A9CAE780EA70E2F6 /* FTS5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS5.swift; path = Sources/SQLite/Extensions/FTS5.swift; sourceTree = "<group>"; };
+		296640A7777E9977DE4B1B9EF6843F18 /* Query.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Query.swift; path = Sources/SQLite/Typed/Query.swift; sourceTree = "<group>"; };
+		2FCE7D07BE8088B948C613DB52A79C88 /* DateAndTimeFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateAndTimeFunctions.swift; path = Sources/SQLite/Typed/DateAndTimeFunctions.swift; sourceTree = "<group>"; };
+		3346DF30F4DB6FFAF0356978E09300FC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3875BB2B4B4E5F8B7E138DD67793CD04 /* CoreFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreFunctions.swift; path = Sources/SQLite/Typed/CoreFunctions.swift; sourceTree = "<group>"; };
+		39A5CD015561700DE7ED113F9E6AAA0B /* Pods-Sample SQLite Swift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sample SQLite Swift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3A0736159B2EB7BB78FDF176E01AB538 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B7C92CDC8800C119D72EA0F9EBAC6D9 /* Pods-Sample SQLite Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sample SQLite Swift-umbrella.h"; sourceTree = "<group>"; };
+		401AC22F9DEDB15D73A802C2FCA686A8 /* CustomFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomFunctions.swift; path = Sources/SQLite/Typed/CustomFunctions.swift; sourceTree = "<group>"; };
+		42E4F48BB2EAD2714192E87C5E117DE3 /* SQLite-Bridging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "SQLite-Bridging.h"; path = "Sources/SQLiteObjc/include/SQLite-Bridging.h"; sourceTree = "<group>"; };
+		4A60E6AD277DE310DF764FA27746EEA7 /* Coding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coding.swift; path = Sources/SQLite/Typed/Coding.swift; sourceTree = "<group>"; };
+		511972C964CB8473FFD63B4203BB2380 /* Collation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collation.swift; path = Sources/SQLite/Typed/Collation.swift; sourceTree = "<group>"; };
+		5896C551CA80F89BCBF786365D2EF45B /* Pods-Sample SQLite SwiftUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sample SQLite SwiftUITests-umbrella.h"; sourceTree = "<group>"; };
+		59B0377ECD9A754DEFA21EBD933910C1 /* Pods-Sample SQLite Swift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sample SQLite Swift-frameworks.sh"; sourceTree = "<group>"; };
+		5B867EE6F6CF742F7C87E5F45781F67B /* Connection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Connection.swift; path = Sources/SQLite/Core/Connection.swift; sourceTree = "<group>"; };
+		5BA29985C5428857803D551A6AB2AD5F /* SQLite.swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SQLite.swift-dummy.m"; sourceTree = "<group>"; };
+		60042E4A616A47BCFFB802836DE28076 /* Pods-Sample SQLite SwiftTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Sample SQLite SwiftTests-umbrella.h"; sourceTree = "<group>"; };
+		62F23765AB680ADE516757BF8C0A326B /* Errors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Errors.swift; path = Sources/SQLite/Core/Errors.swift; sourceTree = "<group>"; };
+		637699E19153DFB2B5DF1DA2E02EF7D7 /* Pods-Sample SQLite SwiftUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sample SQLite SwiftUITests-frameworks.sh"; sourceTree = "<group>"; };
+		643474EE223342D015C7304572957051 /* Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Operators.swift; path = Sources/SQLite/Typed/Operators.swift; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66A36202BFCCD96FC5F494E7C4BA6A77 /* Pods-Sample SQLite SwiftUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sample SQLite SwiftUITests-resources.sh"; sourceTree = "<group>"; };
+		690363762DF4BDFC05BD0F750AA78019 /* SQLite-Bridging.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "SQLite-Bridging.m"; path = "Sources/SQLiteObjc/SQLite-Bridging.m"; sourceTree = "<group>"; };
+		699BA3382EF9958F1909DB8C125630C1 /* fts3_tokenizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fts3_tokenizer.h; path = Sources/SQLiteObjc/fts3_tokenizer.h; sourceTree = "<group>"; };
+		7DEC75AD5E005D49277C5B13895ACE94 /* SQLite.swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-umbrella.h"; sourceTree = "<group>"; };
+		8EF374FF175D59C046A3E4FB11683095 /* Pods-Sample SQLite Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sample SQLite Swift.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9430B32429F0FFF9C8765D44786DAAFF /* Pods-Sample SQLite SwiftUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sample SQLite SwiftUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		95C07A46F82644C52E7CC16FA36A9030 /* Pods-Sample SQLite Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Sample SQLite Swift.modulemap"; sourceTree = "<group>"; };
+		9B3B24373C7BB928A1DE126602F48F02 /* Pods-Sample SQLite Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sample SQLite Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		A212B99BB5D936F271049B436CD6A31C /* Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Value.swift; path = Sources/SQLite/Core/Value.swift; sourceTree = "<group>"; };
+		A310C034AEFFCC427A22C520B6BDFB3F /* Pods-Sample SQLite SwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sample SQLite SwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		AB1A82B06D5B94785E5BF7134B23DC90 /* Pods-Sample SQLite Swift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Sample SQLite Swift-acknowledgements.plist"; sourceTree = "<group>"; };
+		AB4EEDDC7A574480EB0AAADF3C37F9D4 /* Foundation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Foundation.swift; path = Sources/SQLite/Foundation.swift; sourceTree = "<group>"; };
+		B34458A4504501396EA2ABF049268549 /* Helpers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helpers.swift; path = Sources/SQLite/Helpers.swift; sourceTree = "<group>"; };
+		B3C51F397F1751108ACE54803C3E8D1A /* SQLite.swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SQLite.swift.xcconfig; sourceTree = "<group>"; };
+		B6EBE6A7C071FCB45B7CA2B70CCF88F4 /* SQLite.swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLite.swift-prefix.pch"; sourceTree = "<group>"; };
+		B806FF3430B3315FBA1FBF8BFFDD4357 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8906310A3615C20A63337A29946D1A7 /* Expression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Expression.swift; path = Sources/SQLite/Typed/Expression.swift; sourceTree = "<group>"; };
+		B912C5060FDC2E2493A9F5C54DFEF9EC /* Pods-Sample SQLite SwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Sample SQLite SwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0653B4033ACA17E5D41ED1D45012582 /* SQLite.swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SQLite.swift.modulemap; sourceTree = "<group>"; };
+		C398E3CF412510CAC0234587FA47D3FE /* Blob.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Blob.swift; path = Sources/SQLite/Core/Blob.swift; sourceTree = "<group>"; };
+		C629AC6950CF29F460A334CEB114DB79 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8293CC2EC18D074360AD6F84C1F9A6E /* SQLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SQLite.framework; path = SQLite.swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFEE2F5A92C3402532DFF95DF9400669 /* Pods-Sample SQLite SwiftTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sample SQLite SwiftTests-resources.sh"; sourceTree = "<group>"; };
+		DCC42AFED8371774C5713A5B42C929FC /* Pods-Sample SQLite SwiftTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sample SQLite SwiftTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DCC53825AAE5A981376EDDBDB1AD8F53 /* Statement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Statement.swift; path = Sources/SQLite/Core/Statement.swift; sourceTree = "<group>"; };
+		E0B31F3EB76D4A97DCA0B80073D15F7E /* Pods-Sample SQLite SwiftTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Sample SQLite SwiftTests-frameworks.sh"; sourceTree = "<group>"; };
+		E21897015496193FC048FCEBFC403EA6 /* FTS4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FTS4.swift; path = Sources/SQLite/Extensions/FTS4.swift; sourceTree = "<group>"; };
+		E2F4585543D41CBCDED46C8DBE12070B /* Pods-Sample SQLite SwiftTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Sample SQLite SwiftTests.modulemap"; sourceTree = "<group>"; };
+		E7208C477776BCB4B82A72A03D819333 /* Pods-Sample SQLite SwiftUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Sample SQLite SwiftUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EA15DC94A1FCDDF0AA96AC10BE412684 /* Schema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Schema.swift; path = Sources/SQLite/Typed/Schema.swift; sourceTree = "<group>"; };
+		EC036A81D362C7F6A7319758B3EE8835 /* Pods-Sample SQLite Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sample SQLite Swift-dummy.m"; sourceTree = "<group>"; };
+		EDBA8FC57684890F34746A8552D09A4E /* Setter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Setter.swift; path = Sources/SQLite/Typed/Setter.swift; sourceTree = "<group>"; };
+		EF246A8D0EA60A605294DD57319529F9 /* Pods-Sample SQLite SwiftTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Sample SQLite SwiftTests-dummy.m"; sourceTree = "<group>"; };
+		F0644D6055980F79F0A8424EFE2843E1 /* SQLite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SQLite.h; path = Sources/SQLite/SQLite.h; sourceTree = "<group>"; };
+		F2F82E5E057E5FCB4D70D2405E92515A /* Pods-Sample SQLite SwiftUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Sample SQLite SwiftUITests.modulemap"; sourceTree = "<group>"; };
+		F49F885F20234573641D4D302F4A56D6 /* RTree.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTree.swift; path = Sources/SQLite/Extensions/RTree.swift; sourceTree = "<group>"; };
+		FA70639A3BB21C0F8EBA25C4B8CCC1C8 /* Pods_Sample_SQLite_SwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Sample_SQLite_SwiftUITests.framework; path = "Pods-Sample SQLite SwiftUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6A60E1271423CE203BC1E7C982596E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F7F71C6A162D15ED093BB3FFF82C52D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5BBE5A09BA0D30F888B22886B502E15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				621FDD4895E7AC2BFAB139761BA2F95B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8C985979383006B04B968B8133663B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0095524B1808456A306D660272A41451 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF11C9887E74225CE03D8B965FBA180C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				780B4344631965D57E203E7B761EEB08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07D013B39AFE58E2E4D7A6C78183580C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AD89E971E8E81405517287089B04CDE /* Pods_Sample_SQLite_Swift.framework */,
+				0489FB691630657BE7CD9BB3E79B3A69 /* Pods_Sample_SQLite_SwiftTests.framework */,
+				FA70639A3BB21C0F8EBA25C4B8CCC1C8 /* Pods_Sample_SQLite_SwiftUITests.framework */,
+				C8293CC2EC18D074360AD6F84C1F9A6E /* SQLite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30D1A28A4B7B93EC0DABAAA422292BF0 /* Pods-Sample SQLite SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				C629AC6950CF29F460A334CEB114DB79 /* Info.plist */,
+				E2F4585543D41CBCDED46C8DBE12070B /* Pods-Sample SQLite SwiftTests.modulemap */,
+				DCC42AFED8371774C5713A5B42C929FC /* Pods-Sample SQLite SwiftTests-acknowledgements.markdown */,
+				0699A0D3B6F217B3EF63A8CA8C4E0FCF /* Pods-Sample SQLite SwiftTests-acknowledgements.plist */,
+				EF246A8D0EA60A605294DD57319529F9 /* Pods-Sample SQLite SwiftTests-dummy.m */,
+				E0B31F3EB76D4A97DCA0B80073D15F7E /* Pods-Sample SQLite SwiftTests-frameworks.sh */,
+				CFEE2F5A92C3402532DFF95DF9400669 /* Pods-Sample SQLite SwiftTests-resources.sh */,
+				60042E4A616A47BCFFB802836DE28076 /* Pods-Sample SQLite SwiftTests-umbrella.h */,
+				B912C5060FDC2E2493A9F5C54DFEF9EC /* Pods-Sample SQLite SwiftTests.debug.xcconfig */,
+				A310C034AEFFCC427A22C520B6BDFB3F /* Pods-Sample SQLite SwiftTests.release.xcconfig */,
+			);
+			name = "Pods-Sample SQLite SwiftTests";
+			path = "Target Support Files/Pods-Sample SQLite SwiftTests";
+			sourceTree = "<group>";
+		};
+		3F7FEFF0E9DDF0924266346894F8080D /* Pods-Sample SQLite Swift */ = {
+			isa = PBXGroup;
+			children = (
+				B806FF3430B3315FBA1FBF8BFFDD4357 /* Info.plist */,
+				95C07A46F82644C52E7CC16FA36A9030 /* Pods-Sample SQLite Swift.modulemap */,
+				39A5CD015561700DE7ED113F9E6AAA0B /* Pods-Sample SQLite Swift-acknowledgements.markdown */,
+				AB1A82B06D5B94785E5BF7134B23DC90 /* Pods-Sample SQLite Swift-acknowledgements.plist */,
+				EC036A81D362C7F6A7319758B3EE8835 /* Pods-Sample SQLite Swift-dummy.m */,
+				59B0377ECD9A754DEFA21EBD933910C1 /* Pods-Sample SQLite Swift-frameworks.sh */,
+				12E8FCE1A85429B6597A0AD0C2FBAB5B /* Pods-Sample SQLite Swift-resources.sh */,
+				3B7C92CDC8800C119D72EA0F9EBAC6D9 /* Pods-Sample SQLite Swift-umbrella.h */,
+				9B3B24373C7BB928A1DE126602F48F02 /* Pods-Sample SQLite Swift.debug.xcconfig */,
+				8EF374FF175D59C046A3E4FB11683095 /* Pods-Sample SQLite Swift.release.xcconfig */,
+			);
+			name = "Pods-Sample SQLite Swift";
+			path = "Target Support Files/Pods-Sample SQLite Swift";
+			sourceTree = "<group>";
+		};
+		42A565AFFAD6D5669C3E9A617B18206F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65E27D90B57FD680BD9523FA6D120E00 /* SQLite.swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		42CFA4F5C74494DBA0BB7D74EBCDA9FD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F7FEFF0E9DDF0924266346894F8080D /* Pods-Sample SQLite Swift */,
+				30D1A28A4B7B93EC0DABAAA422292BF0 /* Pods-Sample SQLite SwiftTests */,
+				FD2DF5F8A73E0B290206E5119952183A /* Pods-Sample SQLite SwiftUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5F2E6A0B9DCCECD05FE52149DCC2A255 /* standard */ = {
+			isa = PBXGroup;
+			children = (
+				05914528C042257374DC578B405E0AE7 /* AggregateFunctions.swift */,
+				C398E3CF412510CAC0234587FA47D3FE /* Blob.swift */,
+				4A60E6AD277DE310DF764FA27746EEA7 /* Coding.swift */,
+				511972C964CB8473FFD63B4203BB2380 /* Collation.swift */,
+				5B867EE6F6CF742F7C87E5F45781F67B /* Connection.swift */,
+				3875BB2B4B4E5F8B7E138DD67793CD04 /* CoreFunctions.swift */,
+				401AC22F9DEDB15D73A802C2FCA686A8 /* CustomFunctions.swift */,
+				2FCE7D07BE8088B948C613DB52A79C88 /* DateAndTimeFunctions.swift */,
+				62F23765AB680ADE516757BF8C0A326B /* Errors.swift */,
+				B8906310A3615C20A63337A29946D1A7 /* Expression.swift */,
+				AB4EEDDC7A574480EB0AAADF3C37F9D4 /* Foundation.swift */,
+				699BA3382EF9958F1909DB8C125630C1 /* fts3_tokenizer.h */,
+				E21897015496193FC048FCEBFC403EA6 /* FTS4.swift */,
+				19F7F29D58C96F56A9CAE780EA70E2F6 /* FTS5.swift */,
+				B34458A4504501396EA2ABF049268549 /* Helpers.swift */,
+				643474EE223342D015C7304572957051 /* Operators.swift */,
+				296640A7777E9977DE4B1B9EF6843F18 /* Query.swift */,
+				F49F885F20234573641D4D302F4A56D6 /* RTree.swift */,
+				EA15DC94A1FCDDF0AA96AC10BE412684 /* Schema.swift */,
+				EDBA8FC57684890F34746A8552D09A4E /* Setter.swift */,
+				F0644D6055980F79F0A8424EFE2843E1 /* SQLite.h */,
+				42E4F48BB2EAD2714192E87C5E117DE3 /* SQLite-Bridging.h */,
+				690363762DF4BDFC05BD0F750AA78019 /* SQLite-Bridging.m */,
+				DCC53825AAE5A981376EDDBDB1AD8F53 /* Statement.swift */,
+				A212B99BB5D936F271049B436CD6A31C /* Value.swift */,
+			);
+			name = standard;
+			sourceTree = "<group>";
+		};
+		63423990F66CE86DDB380D6110B06E2A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A0736159B2EB7BB78FDF176E01AB538 /* Info.plist */,
+				C0653B4033ACA17E5D41ED1D45012582 /* SQLite.swift.modulemap */,
+				B3C51F397F1751108ACE54803C3E8D1A /* SQLite.swift.xcconfig */,
+				5BA29985C5428857803D551A6AB2AD5F /* SQLite.swift-dummy.m */,
+				B6EBE6A7C071FCB45B7CA2B70CCF88F4 /* SQLite.swift-prefix.pch */,
+				7DEC75AD5E005D49277C5B13895ACE94 /* SQLite.swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SQLite.swift";
+			sourceTree = "<group>";
+		};
+		65E27D90B57FD680BD9523FA6D120E00 /* SQLite.swift */ = {
+			isa = PBXGroup;
+			children = (
+				5F2E6A0B9DCCECD05FE52149DCC2A255 /* standard */,
+				63423990F66CE86DDB380D6110B06E2A /* Support Files */,
+			);
+			name = SQLite.swift;
+			path = SQLite.swift;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				42A565AFFAD6D5669C3E9A617B18206F /* Pods */,
+				07D013B39AFE58E2E4D7A6C78183580C /* Products */,
+				42CFA4F5C74494DBA0BB7D74EBCDA9FD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FD2DF5F8A73E0B290206E5119952183A /* Pods-Sample SQLite SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3346DF30F4DB6FFAF0356978E09300FC /* Info.plist */,
+				F2F82E5E057E5FCB4D70D2405E92515A /* Pods-Sample SQLite SwiftUITests.modulemap */,
+				E7208C477776BCB4B82A72A03D819333 /* Pods-Sample SQLite SwiftUITests-acknowledgements.markdown */,
+				9430B32429F0FFF9C8765D44786DAAFF /* Pods-Sample SQLite SwiftUITests-acknowledgements.plist */,
+				132668EE7BD29BE2FEA447D7CBE9FFBD /* Pods-Sample SQLite SwiftUITests-dummy.m */,
+				637699E19153DFB2B5DF1DA2E02EF7D7 /* Pods-Sample SQLite SwiftUITests-frameworks.sh */,
+				66A36202BFCCD96FC5F494E7C4BA6A77 /* Pods-Sample SQLite SwiftUITests-resources.sh */,
+				5896C551CA80F89BCBF786365D2EF45B /* Pods-Sample SQLite SwiftUITests-umbrella.h */,
+				16FEBF114291D072BBADE43ADFD93241 /* Pods-Sample SQLite SwiftUITests.debug.xcconfig */,
+				0CA91A0EFAF7E80F7FBA92289C582E9F /* Pods-Sample SQLite SwiftUITests.release.xcconfig */,
+			);
+			name = "Pods-Sample SQLite SwiftUITests";
+			path = "Target Support Files/Pods-Sample SQLite SwiftUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		01918F4A983A8B6028968EAE8EEA0798 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B926AC2EBCE6A8C296326A26F0427FA7 /* Pods-Sample SQLite SwiftTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AE038B9D5ACC02227A95DD6DBE08238 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29DE4D308CD243001CAE38E0BA3BEB4A /* Pods-Sample SQLite SwiftUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55EE28E048A41F53B57609E9A48CEB6B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E2DA06353B2940EB56D88243D8B1196 /* Pods-Sample SQLite Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7845D71C630461E92B3D1B955459B40B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ACE44B98F2DEF02B9D417A0C12126D9 /* fts3_tokenizer.h in Headers */,
+				C52E398609B2CBFF8AF53DB95586A22F /* SQLite-Bridging.h in Headers */,
+				6429D01EBEDD5EE53FF7EB9521886792 /* SQLite.h in Headers */,
+				33D411BF6A20D07C78C2F6260DEC42F5 /* SQLite.swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		251A102AFEB8CFABE08020EACEEF91A7 /* Pods-Sample SQLite SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCAF460FDB5AC4014614E68A35C267A7 /* Build configuration list for PBXNativeTarget "Pods-Sample SQLite SwiftUITests" */;
+			buildPhases = (
+				8E3BA6721D2F6A44DB966C9E1E75563C /* Sources */,
+				F8C985979383006B04B968B8133663B6 /* Frameworks */,
+				2AE038B9D5ACC02227A95DD6DBE08238 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2699AB63073DAEE26B63568FF85091D9 /* PBXTargetDependency */,
+			);
+			name = "Pods-Sample SQLite SwiftUITests";
+			productName = "Pods-Sample SQLite SwiftUITests";
+			productReference = FA70639A3BB21C0F8EBA25C4B8CCC1C8 /* Pods_Sample_SQLite_SwiftUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2ACFEDFF2304C889F794E607F1F383D8 /* SQLite.swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6D3FA8DD62DFF1A283845A60893ED8 /* Build configuration list for PBXNativeTarget "SQLite.swift" */;
+			buildPhases = (
+				8AD7A066DF82BF7392BAE0240DED0930 /* Sources */,
+				B6A60E1271423CE203BC1E7C982596E8 /* Frameworks */,
+				7845D71C630461E92B3D1B955459B40B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQLite.swift;
+			productName = SQLite.swift;
+			productReference = C8293CC2EC18D074360AD6F84C1F9A6E /* SQLite.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		616B8325A764658B922DD212205C1EAC /* Pods-Sample SQLite Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CD926DFF12D19CB8D75EC044F72E804 /* Build configuration list for PBXNativeTarget "Pods-Sample SQLite Swift" */;
+			buildPhases = (
+				DFB415958C43E3FE4C20AFE552D33CF5 /* Sources */,
+				F5BBE5A09BA0D30F888B22886B502E15 /* Frameworks */,
+				55EE28E048A41F53B57609E9A48CEB6B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				090AA07DDB0951A046DDA2761F2A01CF /* PBXTargetDependency */,
+			);
+			name = "Pods-Sample SQLite Swift";
+			productName = "Pods-Sample SQLite Swift";
+			productReference = 0AD89E971E8E81405517287089B04CDE /* Pods_Sample_SQLite_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		94096AC19EFF20FAF6FDC4CF4FC2EC43 /* Pods-Sample SQLite SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C982A76C0C75FD9E7C692BB825D36316 /* Build configuration list for PBXNativeTarget "Pods-Sample SQLite SwiftTests" */;
+			buildPhases = (
+				EBE1A4790472B74031AFA37B5D223F30 /* Sources */,
+				FF11C9887E74225CE03D8B965FBA180C /* Frameworks */,
+				01918F4A983A8B6028968EAE8EEA0798 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31DA8C88C669AF071F4045C5FC721B1F /* PBXTargetDependency */,
+			);
+			name = "Pods-Sample SQLite SwiftTests";
+			productName = "Pods-Sample SQLite SwiftTests";
+			productReference = 0489FB691630657BE7CD9BB3E79B3A69 /* Pods_Sample_SQLite_SwiftTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 07D013B39AFE58E2E4D7A6C78183580C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				616B8325A764658B922DD212205C1EAC /* Pods-Sample SQLite Swift */,
+				94096AC19EFF20FAF6FDC4CF4FC2EC43 /* Pods-Sample SQLite SwiftTests */,
+				251A102AFEB8CFABE08020EACEEF91A7 /* Pods-Sample SQLite SwiftUITests */,
+				2ACFEDFF2304C889F794E607F1F383D8 /* SQLite.swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AD7A066DF82BF7392BAE0240DED0930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B97244586C557CAE037C77B18EFEB660 /* AggregateFunctions.swift in Sources */,
+				68CC0ECDA8C0E51607771A68BAA94FFC /* Blob.swift in Sources */,
+				EF97B7BBEF8A758C9CA6FA79B0D4267A /* Coding.swift in Sources */,
+				5491AE5382B5B8F3E023FFDC73A48157 /* Collation.swift in Sources */,
+				621DC861DBC3CB74DE2337AFA916B8F5 /* Connection.swift in Sources */,
+				9961B037770E6F65379F9AC6444FB2B4 /* CoreFunctions.swift in Sources */,
+				C0C81AFF374BE2FEEEABE328FBA62B81 /* CustomFunctions.swift in Sources */,
+				BEB5476D8AF2FF3CFFA2FBAE885F3008 /* DateAndTimeFunctions.swift in Sources */,
+				4BD6D1B4DB1E0628A07A508169EA982E /* Errors.swift in Sources */,
+				C4499A56BF6F2B083F51D22E73FED217 /* Expression.swift in Sources */,
+				8AD16FB632ABFCA92DB00DFB6B30485C /* Foundation.swift in Sources */,
+				5591BB3F9FBBF19BF3076A2349EA1A82 /* FTS4.swift in Sources */,
+				048735D7440E2C8862EDB3392735B5E7 /* FTS5.swift in Sources */,
+				E4CBCAA4E1BCBC705E9A7F78B401DAA3 /* Helpers.swift in Sources */,
+				03168990C829D62C1B292C65EE4B3F30 /* Operators.swift in Sources */,
+				8AC9E29C09707E693CF404154173CF88 /* Query.swift in Sources */,
+				D4195EE9F6C28C5B405F794E5F2EBC01 /* RTree.swift in Sources */,
+				6C975F19FC80DD4EBCD6243CB5AECBD2 /* Schema.swift in Sources */,
+				F29F51931A3C4310225F9E25963C17B3 /* Setter.swift in Sources */,
+				61AF2415ED86FF314AAD4CACCF202BCA /* SQLite-Bridging.m in Sources */,
+				0A779FFEFE53D95A8220015CC327B911 /* SQLite.swift-dummy.m in Sources */,
+				5F68BB0387A6B3BF4A578053397F091E /* Statement.swift in Sources */,
+				CDB7B7E46D92B8C9E4E42FD0E806B27B /* Value.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3BA6721D2F6A44DB966C9E1E75563C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				583FC4343E49C6E97FE576F5C48A4369 /* Pods-Sample SQLite SwiftUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFB415958C43E3FE4C20AFE552D33CF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD0E839749E29AD15DB5FF5E699DCBF /* Pods-Sample SQLite Swift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBE1A4790472B74031AFA37B5D223F30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AE9CDF3A5548016BEA1581A75B83754 /* Pods-Sample SQLite SwiftTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		090AA07DDB0951A046DDA2761F2A01CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SQLite.swift;
+			target = 2ACFEDFF2304C889F794E607F1F383D8 /* SQLite.swift */;
+			targetProxy = CE0A1B31A6241DEBC4B243E6FF69F48D /* PBXContainerItemProxy */;
+		};
+		2699AB63073DAEE26B63568FF85091D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Sample SQLite Swift";
+			target = 616B8325A764658B922DD212205C1EAC /* Pods-Sample SQLite Swift */;
+			targetProxy = AE7245495C4F5C1BC488F9A03935EC16 /* PBXContainerItemProxy */;
+		};
+		31DA8C88C669AF071F4045C5FC721B1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Sample SQLite Swift";
+			target = 616B8325A764658B922DD212205C1EAC /* Pods-Sample SQLite Swift */;
+			targetProxy = EEE660C7C96399BCE09DF3A522DDCF3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		138A2E0E7D107560D46A1698F7DDA739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3C51F397F1751108ACE54803C3E8D1A /* SQLite.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLite.swift/SQLite.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLite.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SQLite.swift/SQLite.swift.modulemap";
+				PRODUCT_MODULE_NAME = SQLite;
+				PRODUCT_NAME = SQLite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		315DDEE239C87C216EB6E44921E4C05C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CA91A0EFAF7E80F7FBA92289C582E9F /* Pods-Sample SQLite SwiftUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Sample SQLite SwiftUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sample SQLite SwiftUITests/Pods-Sample SQLite SwiftUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3CBFD4245CFFFA5D95E9CE8E8398DCF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B912C5060FDC2E2493A9F5C54DFEF9EC /* Pods-Sample SQLite SwiftTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Sample SQLite SwiftTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sample SQLite SwiftTests/Pods-Sample SQLite SwiftTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		50C36D2CF1A2D8E23A23C5EA80235F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A310C034AEFFCC427A22C520B6BDFB3F /* Pods-Sample SQLite SwiftTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Sample SQLite SwiftTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sample SQLite SwiftTests/Pods-Sample SQLite SwiftTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		72A375A2FD3C265970C437AAEC7EE7E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16FEBF114291D072BBADE43ADFD93241 /* Pods-Sample SQLite SwiftUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Sample SQLite SwiftUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sample SQLite SwiftUITests/Pods-Sample SQLite SwiftUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		78A349DD5A27FA5171934525DD0E820E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3C51F397F1751108ACE54803C3E8D1A /* SQLite.swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SQLite.swift/SQLite.swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SQLite.swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SQLite.swift/SQLite.swift.modulemap";
+				PRODUCT_MODULE_NAME = SQLite;
+				PRODUCT_NAME = SQLite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9F48F3953017DE3EED7DF076465ECCE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EF374FF175D59C046A3E4FB11683095 /* Pods-Sample SQLite Swift.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Sample SQLite Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sample SQLite Swift/Pods-Sample SQLite Swift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E9BD5687F51A0020AAE80C7E9609F6EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B3B24373C7BB928A1DE126602F48F02 /* Pods-Sample SQLite Swift.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Sample SQLite Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Sample SQLite Swift/Pods-Sample SQLite Swift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */,
+				AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CD926DFF12D19CB8D75EC044F72E804 /* Build configuration list for PBXNativeTarget "Pods-Sample SQLite Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9BD5687F51A0020AAE80C7E9609F6EE /* Debug */,
+				9F48F3953017DE3EED7DF076465ECCE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C982A76C0C75FD9E7C692BB825D36316 /* Build configuration list for PBXNativeTarget "Pods-Sample SQLite SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CBFD4245CFFFA5D95E9CE8E8398DCF0 /* Debug */,
+				50C36D2CF1A2D8E23A23C5EA80235F3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCAF460FDB5AC4014614E68A35C267A7 /* Build configuration list for PBXNativeTarget "Pods-Sample SQLite SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72A375A2FD3C265970C437AAEC7EE7E0 /* Debug */,
+				315DDEE239C87C216EB6E44921E4C05C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC6D3FA8DD62DFF1A283845A60893ED8 /* Build configuration list for PBXNativeTarget "SQLite.swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78A349DD5A27FA5171934525DD0E820E /* Debug */,
+				138A2E0E7D107560D46A1698F7DDA739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
